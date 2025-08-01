@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Purchase Reg'
+define service ZSD_GSTTAX_PURCHASE_REG {
+  expose ZC_GSTTAX_PURCHASE_REG;
+}

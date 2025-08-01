@@ -1,0 +1,58 @@
+unmanaged implementation in class zbp_i_gsttax_purchase_reg unique;
+strict ( 2 );
+
+define behavior for ZI_GSTTAX_PURCHASE_REG //alias <alias_name>
+//persistent table <???>
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+  field ( readonly )
+  CompanyCode,
+  FiscalYear,
+  AccountingDocument,
+  AccountingDocumentItem,
+  Branch,
+  TaxLedgerName,
+  TaxAmount,
+  CompanyCodeCurrency,
+  AssignmentReference,
+  BusinessPlace,
+  DocumentDate,
+  invoicedate1,
+  VoucherType,
+  ReferenceDoc,
+  TaxBaseAmount,
+  PostingDate,
+  TaxCode,
+  BuM,
+  gstin,
+  HSN_SAC,
+  ItemText,
+  Material,
+  Plant,
+  ProductNumber,
+  ProfitCenter,
+  PurchaseOrderQty,
+  PurchasingDocument,
+  PurchasingDocumentItem,
+  PurchasingDocumentPriceUnit,
+  Supplier,
+  BusinessPartnerName,
+  DocumentReferenceID,
+  AccountingDocumentHeaderText,
+  BusinessPlaceDescription,
+  TaxCodeName,
+  LegalForm,
+  LegalFormDescription,
+  BusinessPartnerType,
+  BusinessPartnerTypeDesc,
+  MinorityGroup,
+  ProductName,
+  TaxLedgerNo
+  ;
+
+}

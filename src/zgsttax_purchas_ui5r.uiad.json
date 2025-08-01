@@ -1,0 +1,34 @@
+{
+  "formatVersion": "1",
+  "header": {
+    "description": "Purchase Register",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD"
+  },
+  "ui5AppDetails": {
+    "appId": "zgsttaxpurchasereg"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_AEE738FC03643D2859E78F337556EC582A14DF86_TM",
+    "semanticObject": "zgsttax_purchase_reg",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_AEE738FC03643D2859E78F337556EC582A14DF86_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Purchase Register",
+        "subtitle": "Purchase Register"
+      }
+    }
+  ]
+}
